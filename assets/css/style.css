@@ -1,0 +1,148 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+
+.header{
+    border-top: 4px solid #62760c;
+    width: 100%;
+    height: 120px;
+    background: rgb(83,82,4) ;
+    background: linear-gradient(90deg, rgba(83,82,4,1) 1%, rgba(205,179,12,1) 100%, rgba(80,101,42,1) 100%);
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  
+}
+li{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.productos:hover{
+    background-color:rgba(255, 255, 255, 0.381);
+}
+.productos{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.653);
+    border-radius: 10px;
+}
+.champuseria{
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    list-style: none;
+    animation: latir infinite 3s linear;
+}
+@keyframes latir {
+    from{
+        transform:scale(1,1)
+    }
+    to{
+     transform: scale(0.9, 0.9)
+    }
+ }
+
+.slider{
+    display: block;
+    align-content: center;
+
+    width: 100%;
+    height:300px;
+    background: rgb(83,82,4);
+    background: linear-gradient(90deg, rgba(83,82,4,1) 1%, rgba(205,179,12,1) 100%, rgba(80,101,42,1) 100%);
+} 
+
+.hola{
+    padding-top: 64px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+.champuseriaVip{
+    
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.conoce{
+    color:#535204;
+    display: block;
+    background: white;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 12px 5px #535204;
+    margin-top: 40px;
+    transition: 300ms all;
+}
+.conoce:hover{
+    background:  #535204;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    background-color: #1a1c20;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    height: 100px;
+   
+     
+}
+.contactos{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+    height: 80%;
+}
+.creado{
+    text-align: center;
+}
+.contacto, .redes{
+    text-align: center;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.tituloContacto{
+    margin-bottom: 10px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
