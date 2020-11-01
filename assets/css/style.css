@@ -212,7 +212,7 @@ margin-right: 50px;
     display: block;
     margin: 0px;
     float: left;
-    margin-left: 9px;
+    
 }
 #menu{
     width: 70%;
@@ -597,6 +597,9 @@ textarea{
         padding: 4px;
         font-size: 10px;
     }
+    .copy{
+        font-size: 10px;
+    }
     
 }
 @media (max-width: 373px){
@@ -606,5 +609,13 @@ textarea{
 @media (max-width: 1067px){
     #logo{
         display: flex;
+    }
+}
+@media (max-width: 528px){
+    .copy{
+        font-size: 10px;
+    }
+    .redes1{
+        font-size: 11px;
     }
 }
