@@ -205,7 +205,7 @@ margin-right: 50px;
 .texto{
     margin-top: 40px;
     text-align: center;
-    margin: 40px;
+    
 }
 
 #brand{
@@ -297,6 +297,9 @@ background: radial-gradient(circle, rgba(83,82,4,1) 1%, rgba(205,179,12,1) 100%,
     box-shadow: 0px 0px 3px #444;
     margin-top: 20px;
     transition: 300ms all;
+}
+.entregar{
+    color: #444;
 }
 
 
