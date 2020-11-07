@@ -622,3 +622,59 @@ textarea{
         font-size: 11px;
     }
 }
+
+/* lulada html */
+.lulada1{
+    width: 100%;
+}
+.lulada2{
+    width: 100% !important;
+    min-height: 515px !important;
+}
+.luladaImg{
+    height: 100% !important;
+}
+.precios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 200px;
+}
+.precio1, .precio2{
+    width: 30%;
+    text-align: center;
+    border-radius: 2px;
+    background: #1a1c20;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px #1a1c20
+    
+}
+.onzas{
+    color: #62760c;
+    border-bottom: 4px solid #62760c
+}
+.medida{
+    color: white;
+    margin-top: 20px;
+}
+.comprar{
+    margin-top: 40px !important;
+    color:white !important;
+    background: rgb(83,82,4);
+}
+.comprar:hover{
+    text-decoration: none !important;
+    color:rgb(83,82,4) !important;
+    background: white !important;
+    
+}
+.luladaCenter{
+    display: flex;
+    justify-content: center;
+}
+.atras{
+    font-size: 10px;
+    
+    padding: 10px;
+    
+}
