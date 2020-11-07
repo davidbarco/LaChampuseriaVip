@@ -511,6 +511,70 @@ textarea{
      height: 100% !important;
  }
 
+ /* lulada html */
+.lulada1{
+    width: 100%;
+}
+.lulada2{
+    width: 100% !important;
+    min-height: 515px !important;
+}
+.luladaImg{
+    height: 100% !important;
+}
+.precios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 200px;
+}
+.precio1, .precio2{
+    width: 30%;
+    text-align: center;
+    border-radius: 2px;
+    background: #1a1c20;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px #1a1c20
+    
+}
+.onzas{
+    color: #62760c;
+    border-bottom: 4px solid #62760c;
+}
+.medida{
+    color: white;
+    margin-top: 20px;
+}
+.comprar{
+    margin-top: 40px !important;
+    color:white !important;
+    background: rgb(83,82,4);
+}
+.comprar:hover{
+    text-decoration: none !important;
+    color:rgb(83,82,4) !important;
+    background: white !important;
+    
+}
+.luladaCenter{
+    display: flex;
+    justify-content: center;
+}
+.atras{
+    font-size: 10px;
+    
+    padding: 10px;
+    
+}
+.volverBtn{
+    color:#62760c ;
+}
+.atras:hover{
+    text-decoration: none !important;
+}
+.texto2{
+    margin-top: 20px;
+}
  /* responsive */
  /* desde la anchura 0px hasta la anchura 1488px de pantalla*/
  @media (max-width: 894px){
@@ -608,6 +672,20 @@ textarea{
         margin-left: -21px;
     }
     
+    .medida{
+        font-size: 12px !important;
+    }
+    .luladaImg{
+    height: 50% !important;
+    width: 50% !important;
+    }
+    .texto2{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .texto3{
+        margin-top: -14px;
+    }
 }
 @media (max-width: 373px){
     
@@ -627,70 +705,7 @@ textarea{
     }
 }
 
-/* lulada html */
-.lulada1{
-    width: 100%;
-}
-.lulada2{
-    width: 100% !important;
-    min-height: 515px !important;
-}
-.luladaImg{
-    height: 100% !important;
-}
-.precios{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    height: 200px;
-}
-.precio1, .precio2{
-    width: 30%;
-    text-align: center;
-    border-radius: 2px;
-    background: #1a1c20;
-    padding: 10px;
-    box-shadow: 0px 0px 2px 1px #1a1c20
-    
-}
-.onzas{
-    color: #62760c;
-    border-bottom: 4px solid #62760c;
-}
-.medida{
-    color: white;
-    margin-top: 20px;
-}
-.comprar{
-    margin-top: 40px !important;
-    color:white !important;
-    background: rgb(83,82,4);
-}
-.comprar:hover{
-    text-decoration: none !important;
-    color:rgb(83,82,4) !important;
-    background: white !important;
-    
-}
-.luladaCenter{
-    display: flex;
-    justify-content: center;
-}
-.atras{
-    font-size: 10px;
-    
-    padding: 10px;
-    
-}
-.volverBtn{
-    color:#62760c ;
-}
-.atras:hover{
-    text-decoration: none !important;
-}
-.texto2{
-    margin-top: 20px;
-}
+
 
 @media (max-width: 844px){
     .luladaImg{
@@ -827,18 +842,5 @@ font-size: 10px !important;
 
 @media (max-width: 360px){
     
-    .medida{
-        font-size: 12px !important;
-    }
-    .luladaImg{
-    height: 50% !important;
-    width: 50% !important;
-    }
-    .texto2{
-        font-size: 16px;
-        margin-top: 8px;
-    }
-    .texto3{
-        margin-top: -14px;
-    }
+    
 }
