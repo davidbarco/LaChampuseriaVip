@@ -682,9 +682,14 @@ textarea{
     .texto2{
         font-size: 16px;
         margin-top: 8px;
+        margin-top: 21px;
+        margin-bottom: 74px;
+        
     }
     .texto3{
-        margin-top: -14px;
+        
+        margin-top: 21px;
+        margin-bottom: 74px;
     }
 }
 @media (max-width: 373px){
